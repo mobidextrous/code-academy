@@ -1,0 +1,8 @@
+const kelvin = 0; // keep Kelvin steady at 293
+let celsius = kelvin -273; // converts Kelvin into celsius 
+console.log(celsius); 
+let farenheit = celsius * (9/5) +32; // this code converts celsius into farenheit
+farenheit = Math.floor(farenheit); // this reduces the decimal places
+Newton = celsius * (33/100) // creates a variable for Newton based on a math instruction to celsius 
+Newton = Math.floor(Newton) // rounding Newton to whole numbers
+console.log(`The temperature is ${Newton} degrees Newton`) // print
